@@ -1,0 +1,159 @@
+:root {
+  --color-green: #44ffa1;
+  --color-purple-900: #24053e;
+  --color-purple-500: #584d62;
+  --color-purple-100: #fcf8ff;
+  --color-white: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.block {
+  padding: 6.4rem 2.4rem;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Fraunces', sarif;
+  font-weight: 600;
+  color: var(--color-purple-900);
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.2rem 3.2rem;
+  background: var(--color-green);
+  color: var(--color-purple-900);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.call-out__text-content {
+  text-align: center;
+  line-height: 1.8;
+  background: #24053e;
+  color: var(--color-white);
+  padding: 3.2rem;
+}
+
+.call-out__detail {
+  word-spacing: 2px;
+}
+
+.call-out__text-content .call-out__heading {
+  color: inherit;
+  margin-bottom: 3.2rem;
+}
+
+.call-out__btn {
+  margin-top: 3.2rem;
+}
+
+.call-out__img {
+  display: block;
+  width: 100%;
+  max-width: 264.32px;
+  margin: 0 auto -6rem;
+  position: relative;
+  z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+  .block {
+    padding: 5.4rem 4.4rem 4.4rem;
+  }
+
+  .block--call-out {
+    padding-top: 11.2rem;
+  }
+  .call-out {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .call-out__text-content {
+    padding: 4.8rem;
+    text-align: left;
+    position: relative;
+    top: 15.8rem;
+    left: -10rem;
+    justify-self: flex-end;
+    background-image: url(./starter-code/assets/images/bg-pattern-3.svg);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: 90% 110%;
+  }
+
+  .call-out__img {
+    align-self: flex-start;
+  }
+
+  .call-out__heading {
+    font-size: 4.8rem;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .block {
+    padding: 8.8rem 8rem 14.4rem;
+  }
+
+  .block--call-out {
+    padding-top: 11.2rem;
+  }
+
+  .call-out {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .call-out__text-content {
+    padding: 6.4rem;
+    text-align: left;
+    position: relative;
+    top: 15.8rem;
+    left: -8rem;
+    background-size: 170px;
+  }
+
+  .call-out__heading {
+    font-size: 5.6rem;
+  }
+
+  .call-out__img {
+    max-width: 450px;
+    align-self: flex-start;
+  }
+}

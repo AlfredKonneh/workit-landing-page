@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <title>Frontend Mentor | Workit landing page</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="assets/images/image-hero.webp"
+        alt="iphone 11"
+        loading="lazy"
+        class="hero__img"
+      />
+      <svg
+        class="wave header__wave"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#24053e"
+          fill-opacity="1"
+          d="M0,64L80,80C160,96,320,128,480,149.3C640,171,800,181,960,170.7C1120,160,1280,128,1360,112L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+        ></path>
+      </svg>
+      <nav class="nav container">
+        <img
+          src="assets/images/logo-light.svg"
+          alt="Workit logo"
+          class="logo"
+        />
+        <ul class="nav__list">
+          <li>
+            <a href="#" class="nav__link" aria-label="Apply for access"
+              >Apply for access</a
+            >
+          </li>
+          <div class="line"></div>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h1 class="hero__heading">
+          Data
+          <span class="underline"
+            >tailored
+            <div class="line"></div>
+          </span>
+          to <br />
+          your needs.
+        </h1>
+        <a href="#" class="btn hero__btn" aria-label="Learn more">Learn more</a>
+      </div>
+    </header>
+    <!-- main start -->
+    <main>
+      <!-- future block -->
+      <section class="block block--future">
+        <svg
+          class="wave future__wave"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#fcf8ff"
+            fill-opacity="1"
+            d="M0,64L80,80C160,96,320,128,480,149.3C640,171,800,181,960,170.7C1120,160,1280,128,1360,112L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+          ></path>
+        </svg>
+        <div class="container future__content">
+          <ol class="list future__list grid--1x3 container">
+            <li>
+              <div class="media">
+                <div class="circle">1</div>
+                <div class="media__content">
+                  <h2>Actionable insights</h2>
+                  <p>
+                    Optimize your products, improve customer satisfaction and
+                    stay ahead of the competition with our product data
+                    analytics.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="media">
+                <div class="circle">2</div>
+                <div class="media__content">
+                  <h2>Data-driven decisions</h2>
+                  <p>
+                    Make data-driven decisions with our product data analytics.
+                    Our AI-generated reports help you unlock insights hidden in
+                    your product data.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="media">
+                <div class="circle">3</div>
+                <div class="media__content">
+                  <h2>Always affordable</h2>
+                  <p>
+                    Always affordable pricing that scales with your business.
+                    Get top-quality product data analytics services without
+                    hidden costs or unexpected fees.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <!-- call out block -->
+      <section class="block block--call-out">
+        <div class="call-out container">
+          <img
+            src="assets/images/image-founder.webp"
+            alt="Louis Graham, founder"
+            class="call-out__img"
+          />
+          <div class="call-out__text-content">
+            <h2 class="call-out__heading">Be the first to test</h2>
+            <p class="call-out__detail">
+              Hi, I'm Louis Graham, the founder of the company. Book a demo call
+              with me to become a beta tester for our app and kickstart your
+              company. Apply for access below and I&#39;ll be in touch to
+              schedule a call.
+            </p>
+            <a href="#" class="btn call-out__btn" aria-label="Apply for access"
+              >Apply for access</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <img src="assets/images/logo-dark.svg" alt="Workit logo dark" />
+      <div class="footer__icon-container">
+        <img
+          src="assets/images/icon-facebook.svg"
+          alt="facebook logo"
+          class="footer__icon"
+        />
+        <img
+          src="assets/images/icon-twitter.svg"
+          alt="twitter logo"
+          class="footer__icon"
+        />
+        <img
+          src="assets/images/icon-instagram.svg"
+          alt="instagram logo"
+          class="footer__icon"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
