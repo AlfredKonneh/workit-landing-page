@@ -271,8 +271,8 @@ header {
     position: relative;
     padding: 3.2rem 4.4rem 14rem;
     height: auto;
-    background-image: url('./starter-code/assets/images/bg-pattern-1.svg'),
-      url('./starter-code/assets/images/bg-pattern-2.svg');
+    background-image: url('./images/bg-pattern-1.svg'),
+      url('./images/bg-pattern-2.svg');
     background-repeat: no-repeat;
     background-position: -20% 80%, 110% 90%;
   }
@@ -322,7 +322,7 @@ header {
     top: 15.8rem;
     left: -10rem;
     justify-self: flex-end;
-    background-image: url('./starter-code/assets/images/bg-pattern-3.svg');
+    background-image: url('./images/bg-pattern-3.svg');
     background-repeat: no-repeat;
     background-size: 130px;
     background-position: 90% 110%;
